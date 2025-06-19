@@ -43,7 +43,7 @@ const config: QuartzConfig = {
           light: "#272822",
           lightgray: "#414339",
           gray: "#646464",
-          darkgray: "#8d8d7d",
+          darkgray: "#AdAd9d",
           dark: "#e8e8e2",
           secondary: "#b6d21e",
           tertiary: "#d6f23e",
@@ -56,6 +56,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+      Plugin.HardLineBreaks(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
