@@ -24,7 +24,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Fira Code",
-        body: "Fira Code",
+        body: "Noto Sans Japanese",
         code: "Fira Code",
       },
       colors: {
