@@ -19,7 +19,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs({
-        spacerSymbol: "/"
+        spacerSymbol: "/",
       }),
       condition: (page) => page.fileData.slug !== "index",
     }),
@@ -41,14 +41,14 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      title: "Explorer"
+      title: "Explorer",
     }),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.RecentNotes({ limit: 5 })
+    Component.RecentNotes({ limit: 5 }),
   ],
 }
 
@@ -56,10 +56,10 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs({
-      spacerSymbol: "/"
+      spacerSymbol: "/",
     }),
     Component.ArticleTitle(),
-    Component.ContentMeta()
+    Component.ContentMeta(),
   ],
   left: [
     Component.PageTitle(),

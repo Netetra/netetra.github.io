@@ -1,19 +1,19 @@
 name: Deploy Quartz site to GitHub Pages
- 
+
 on:
   push:
     branches:
       - main
- 
+
 permissions:
   contents: read
   pages: write
   id-token: write
- 
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
+
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 22
-          cache: 'pnpm'
+          cache: "pnpm"
       - name: Install Dependencies
         run: pnpm i
       - name: Build Quartz
@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
- 
+
   deploy:
     needs: build
     environment:
