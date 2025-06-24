@@ -1,8 +1,11 @@
 ---
 title: about me
 ---
+
 ---
+
 # Netetra
+
 kosen22s
 メインで書いてる言語はRustでArchLinux大好き！
 
