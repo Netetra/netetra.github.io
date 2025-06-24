@@ -45,11 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Explorer",
     }),
   ],
-  right: [
-    Component.Graph(),
-    Component.Backlinks(),
-    Component.RecentNotes({ limit: 5 }),
-  ],
+  right: [Component.Graph(), Component.Backlinks(), Component.RecentNotes({ limit: 5 })],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
