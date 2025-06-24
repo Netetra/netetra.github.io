@@ -40,15 +40,15 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-  ],
-  right: [
-    Component.Backlinks(),
-    Component.RecentNotes({ limit: 5 }),
     Component.Explorer({
       title: "Explorer",
     }),
+  ],
+  right: [
+    Component.Graph(),
+    Component.Backlinks(),
+    Component.RecentNotes({ limit: 5 }),
   ],
 }
 
