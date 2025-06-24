@@ -1,7 +1,9 @@
 ---
 title: CANの仕様について
 tags:
-  - "#protocol"
+  - 組み込み
+  - 規格
+  - CAN
 ---
 
 # CANとは

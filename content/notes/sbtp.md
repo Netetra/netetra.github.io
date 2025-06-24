@@ -1,7 +1,8 @@
 ---
 title: SBTP (Simple Bytes Transfer Protocol)
 tags:
-  - protocol
+  - 組み込み
+  - 規格
 ---
 
 # 概要

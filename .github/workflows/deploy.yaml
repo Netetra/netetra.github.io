@@ -32,6 +32,8 @@ jobs:
         run: pnpm i
       - name: Build Quartz
         run: pnpm run build
+      - name: Copy ads.txt
+        run: cp ./ads.txt ./public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
