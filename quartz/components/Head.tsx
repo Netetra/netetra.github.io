@@ -82,7 +82,7 @@ export default (() => {
           </>
         )}
 
-        <link rel="icon" href={iconPath} />
+        <link rel="icon" href="https://github.com/netetra.png" />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
