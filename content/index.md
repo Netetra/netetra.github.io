@@ -13,6 +13,6 @@ Twitter: [@netetra07](https://x.com/netetra07)
 ---
 
 # このサイトの構成
-- notes
-- logs
-- howto
+- [notes](/notes)
+- [logs](/logs)
+- [howto](/howto)
