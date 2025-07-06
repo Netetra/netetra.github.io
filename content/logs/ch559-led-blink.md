@@ -1,5 +1,5 @@
 ---
-title: CH559でLチカしてみる
+title: CH559で遊ぶ (1) Lチカ
 tags:
   - 組み込み
   - CH559
@@ -17,8 +17,8 @@ CH559は[江蘇沁恒股分有限公司(WCH)](https://www.wch-ic.com/)が作っ�
 - 内部にレギュレータが内蔵されてて、外部にレギュレータを載せないならVDD33をデカップリングしなくちゃだめらしい
 
 
-![[/assets/image/ch559-led-blink-schematics.png]]
-![[/assets/image/ch559-led-blink-breadboard.png]]
+![[ch559_led_blink_schematics.png]]
+![[ch559_led_blink_breadboard.png]]
 _実際に組んだところ_
 
 # プログラム
@@ -27,7 +27,6 @@ _実際に組んだところ_
 #include "ch559.h"
 
 void main() {
-
 	PORT_CFG_REG = 0b00101101;
 	P1_DIR_REG = 0b00000100;
 	P1_PU_REG = 0b11111011;
@@ -50,7 +49,7 @@ https://github.com/ch32-rs/wchisp
 wchisp flash ./out/main.hex
 ```
 
-![[/assets/movie/ch559-led-blink.gif]]
+![[ch559_led_blink.gif]]
 
-作った環境はgithubに上げました
-https://github.com/Netetra/ch559-template
+コードはgithubに上げました
+https://github.com/Netetra/ch55x-template
