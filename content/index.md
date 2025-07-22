@@ -11,8 +11,7 @@ Github: [Netetra](https://github.com/Netetra)
 Twitter: [@netetra07](https://x.com/netetra07)
 
 ---
-
-# このサイトの構成
 - [notes](/notes)
 - [logs](/logs)
 - [howto](/howto)
+- [archive](/archive)
