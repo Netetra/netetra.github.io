@@ -15,6 +15,7 @@ https://www.orientalmotor.co.jp/ja/products/detail?hinmei=BLHM5100K-30
 
 # 回してみる
 エンコーダーが付いてるのですが取説には説明が一切無かったので、このモーターが都合よく2ついたので片方をバラしてみることに
+![[/assets/image/100w_bldc_sensor_pcb.png]]
 ![[/assets/image/100w_bldc_md_encoder.png]]
 結果、センサはホールセンサで緑がGNDで黄色が電源、残りが3相分のオープンコレクタ出力と判明
 あとは適当にコード書いて、繋げれば
