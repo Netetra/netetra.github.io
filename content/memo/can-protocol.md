@@ -1,5 +1,5 @@
 ---
-title: CANの仕様について
+title: CANについてのメモ
 tags:
   - 組み込み
   - 規格

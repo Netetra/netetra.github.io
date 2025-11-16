@@ -1,5 +1,5 @@
 ---
-title: CH559で遊ぶ (1) Lチカ
+title: CH559でLチカ
 tags:
   - 組み込み
   - CH559
