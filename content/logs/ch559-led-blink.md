@@ -3,6 +3,7 @@ title: CH559でLチカ
 tags:
   - 組み込み
   - CH559
+  - C
 ---
 # CH559とは
 CH559は[江蘇沁恒股分有限公司(WCH)](https://www.wch-ic.com/)が作ってるUSBホスト・デバイスの機能がくっついてる8bitマイコンで、コアは[8051](https://ja.wikipedia.org/wiki/Intel_8051)とかいう1980年に作られたCPUを拡張したものらしい
