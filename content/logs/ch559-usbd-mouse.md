@@ -16,6 +16,8 @@ USBデバイスと後々USBホストをしたいのでブレッドボードで�
 ピン配置の違うAZ1117になってたので違法建築で修正
 ![[/assets/image/ch559_dev_board_v1_az1117_miss.png]]
 
+開発中のデバッグ出力にUARTを使ってて素のCH340で見てたら抜き差し時に謎に逝ってしまった。
+今はロボコンで作った[[usb-to-uart-v1]]で見てて特にトラブルなし
 # プログラム
 参考資料:
 - https://www.wch.cn/products/CH559.html

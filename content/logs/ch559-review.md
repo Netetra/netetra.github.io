@@ -22,18 +22,19 @@ CH559自体には関係ないけど秋月で取り扱ってるので手に入れ
 
 ## 4. RAMもROMも結構ある
 USBデバイスにするのでカーソルをくるくる回す嫌がらせマウスを作ってみたけどバイナリサイズは12KBくらい
-Arduino UNO R3
-- RAM: 2KB
-- ROM: 32KB
-CH559
-- iRAM: 256B
-- xRAM: 6KB
-- ROM: 64KB
+- Arduino UNO R3
+	- RAM: 2KB
+	- ROM: 32KB
+- CH559
+	- iRAM: 256B
+	- xRAM: 6KB
+	- ROM: 64KB
 でRAMもROMもArduino UNOより多いので当面尽きることは無さそう
 
 # 悪いと思ったところ
 ## 1. CH559オリジナルのペリフェラルに関する情報が少ない
-[[#良いと思ったところ]]で書いた通り8051にあるペリフェラルは情報が多いのですが、CH559に独自のペリフェラルは公式のKeilを使ってるサンプルコードか、データシートか、https://github.com/atc1441/CH559sdccUSBHost
+[[#良いと思ったところ]]で書いた通り8051にあるペリフェラルは情報が多いのですが、CH559に独自のペリフェラルは公式のKeilを使ってるサンプルコードか、データシートか、
+https://github.com/atc1441/CH559sdccUSBHost
 https://github.com/toyoshim/chlib
 くらいしか参考になるものが無くて辛い
 
