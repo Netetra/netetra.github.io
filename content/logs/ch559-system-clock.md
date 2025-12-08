@@ -5,7 +5,7 @@ tags:
   - CH559
   - C
 ---
-[これ](./ch559-led-blink) に続いてクロック周りを触ります。
+今回はクロック周りを触ります。
 
 # クロック周りの構成
 ![[/assets/image/ch559_clock_diagram.png]]
