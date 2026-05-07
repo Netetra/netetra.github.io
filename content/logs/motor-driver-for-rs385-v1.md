@@ -3,7 +3,8 @@ title: 385用のMDを作った
 tags:
   - 回路
 ---
-https://x.com/Nano_masuter/status/1988219582356877702?s=20
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">動きました。やったね！！ <a href="https://t.co/0v9l1rCPR7">https://t.co/0v9l1rCPR7</a> <a href="https://t.co/Jbym8YPlSb">pic.twitter.com/Jbym8YPlSb</a></p>&mdash; Nano (@Nano_masuter) <a href="https://twitter.com/Nano_masuter/status/1988219582356877702?ref_src=twsrc%5Etfw">November 11, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 このツイートを見て作りたくなり作りました
 
 # 回路
@@ -24,4 +25,4 @@ https://x.com/Nano_masuter/status/1988219582356877702?s=20
 
 # 実物
 
-![](https://x.com/i/status/2009566982501441931)
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">逆接保護と静電気保護、電流制限（tb67h450の機能）を詰めました <a href="https://t.co/ncGjRJKNah">pic.twitter.com/ncGjRJKNah</a></p>&mdash; Netetra (@netetra07) <a href="https://twitter.com/netetra07/status/2009566982501441931?ref_src=twsrc%5Etfw">January 9, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
