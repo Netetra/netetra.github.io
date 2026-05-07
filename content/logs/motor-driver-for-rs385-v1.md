@@ -1,5 +1,5 @@
 ---
-title: 385用のMDを作った
+title: RS385用のMDを作った
 tags:
   - 回路
 ---
