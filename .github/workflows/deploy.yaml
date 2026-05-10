@@ -18,13 +18,13 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Fetch all history for git info
       - uses: pnpm/action-setup@v4
         with:
           version: 10
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "pnpm"
@@ -35,7 +35,7 @@ jobs:
       - name: Copy ads.txt
         run: cp ./ads.txt ./public/
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: public
 
